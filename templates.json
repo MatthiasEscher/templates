@@ -843,7 +843,7 @@
     "logo": "https://pbs.twimg.com/profile_images/1172521328785657856/220xEIev_400x400.jpg",
     "platform": "linux",
     "repository": {
-      "url": "https://localhost:9001",
+      "url": "http://localhost:9001",
       "stackfile": "stacks/openslides/docker-stack.yml"
     },
     "env": [

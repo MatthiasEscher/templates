@@ -1016,7 +1016,7 @@
 			"platform": "linux",
 			"logo": "https://pbs.twimg.com/profile_images/1172521328785657856/220xEIev_400x400.jpg",
 			"repository": {
-				"url": "https://portainer-templates.matthias-escher.de:8443",
+				"url": "https://github.com/MatthiasEscher/templates",
 				"stackfile": "stacks/openslides/docker-stack.yml"
 			},
 			"env": [{
@@ -1031,7 +1031,18 @@
 			  {
 				"name": "Branding",
 				"label": "Branding",
-				"description": "Default oder ju-cloud"
+				"description": "Default oder ju-cloud",
+				"select": [
+					{
+					  "text": "Default",
+					  "value": "default",
+					  "default": true
+					},
+					{
+					  "text": "JU-Cloud Branding",
+					  "value": "ju-cloud"
+					}
+				  ]
 			  }
 			]
 		},

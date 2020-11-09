@@ -1,0 +1,26 @@
+# Das hier ist ein Template für die schnelle Installation von Openslides mit PostgreSQL und Redis 
+# Bitte das POSTGRES_PASSWORD befüllen und das DJANGO_SECRET!
+# Auch den Port unter Openslides befüllen
+
+postgres-db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: <DB_PASSWORD>
+      POSTGRES_USER: openslides
+      POSTGRES_DB: openslides
+
+redis:
+    image: redis
+    restart: always
+
+openslides:
+    image: matthiasescher/openslides
+    ports:
+        - "8000"
+    environment:
+      DJANGO_SECRET: <DJANGO_SECRET>
+      Branding: <Branding>
+    links: 
+        - "postgres-db"
+        - "redis"

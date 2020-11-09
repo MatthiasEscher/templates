@@ -1,5 +1,6 @@
 FROM nginx:stable-alpine
 
-COPY templates.json /usr/share/nginx/html/templates.json
+COPY templates-2.0.json /usr/share/nginx/html/templates-2.0.json
+COPY stacks /usr/share/nginx/html/stacks
 
 EXPOSE 80

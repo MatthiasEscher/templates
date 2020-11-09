@@ -1007,6 +1007,35 @@
 			]
 		},
 		{
+			"type": 3,
+			"title": "Openslides",
+			"description": "Install Oopenslides PostgreSQL & Redis mit Option für JU OS-EL Branding",
+			"categories": [
+				"Software"
+			],
+			"platform": "linux",
+			"logo": "https://pbs.twimg.com/profile_images/1172521328785657856/220xEIev_400x400.jpg",
+			"repository": {
+				"url": "https://portainer-templates.matthias-escher.de:8443",
+				"stackfile": "stacks/openslides/docker-stack.yml"
+			},
+			"env": [{
+				"name": "POSTGRES_PASSWORD",
+				"label": "Datenbank Passwort"
+			  },
+			  {
+				"name": "DJANGO_SECRET",
+				"label": "Django Secret",
+				"description": "Secret Key zum signieren der Daten!"
+			  },
+			  {
+				"name": "Branding",
+				"label": "Branding",
+				"description": "Default oder ju-cloud"
+			  }
+			]
+		},
+		{
 			"title": "Sematext Docker Agent",
 			"type": 2,
 			"categories": [

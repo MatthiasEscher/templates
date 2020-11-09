@@ -1043,7 +1043,15 @@
 					  "value": "ju-cloud"
 					}
 				  ]
+			  },
+			  {
+				"name": "Public_Port",
+				"label": "Externer Port",
+				"description": "Unter welchem Port soll Openslides bereitgestellt werden?"
 			  }
+			],
+			"ports": [
+				"8081:8000/tcp"
 			]
 		},
 		{

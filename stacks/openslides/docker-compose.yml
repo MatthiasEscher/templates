@@ -17,7 +17,7 @@ redis:
 openslides:
     image: matthiasescher/openslides
     ports:
-        - "8000"
+        - "${Public_Port}:8000"
     environment:
       DJANGO_SECRET: ${DJANGO_SECRET}
       Branding: ${Branding}

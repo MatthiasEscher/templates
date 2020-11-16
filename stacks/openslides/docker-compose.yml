@@ -10,7 +10,7 @@ postgres-db:
       POSTGRES_USER: openslides
       POSTGRES_DB: openslides
     ports:
-        -"5432"
+        - "5432"
 
 redis:
     image: redis

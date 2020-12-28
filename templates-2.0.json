@@ -1045,6 +1045,22 @@
 				  ]
 			  },
 			  {
+				"name": "Version",
+				"label": "Version",
+				"description": "Openslides Version 3.2 oder 3.3",
+				"select": [
+					{
+					  "text": "3.3",
+					  "value": "3.3",
+					  "default": true
+					},
+					{
+					  "text": "3.2",
+					  "value": "3.2"
+					}
+				  ]
+			  },
+			  {
 				"name": "Public_Port",
 				"label": "Externer Port",
 				"description": "Unter welchem Port soll Openslides bereitgestellt werden?"

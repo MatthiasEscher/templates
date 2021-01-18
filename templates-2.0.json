@@ -1086,22 +1086,6 @@
 				"description": "Was soll der Absender sein?"
 			  },
 			  {
-				"name": "EMAIL_USE_TLS",
-				"label": "E-Mail Server TLS",
-				"description": "Nutzt der Mail-Server TLS?",
-				"select": [
-					{
-					  "text": "Ja",
-					  "value": "True",
-					  "default": true
-					},
-					{
-					  "text": "Nein",
-					  "value": "False"
-					}
-				  ]
-			  },
-			  {
 				"name": "Public_Port",
 				"label": "Externer Port",
 				"description": "Unter welchem Port soll Openslides bereitgestellt werden?"

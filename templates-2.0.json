@@ -1061,6 +1061,47 @@
 				  ]
 			  },
 			  {
+				"name": "EMAIL_HOST",
+				"label": "Mail Server",
+				"description": "Von welchem Mail-Server sollen Mails verschickt werden?"
+			  },
+			  {
+				"name": "EMAIL_PORT",
+				"label": "Mail Server Port",
+				"description": "Welchen Port nutzt der Mail-Server?"
+			  },
+			  {
+				"name": "EMAIL_USER",
+				"label": "Mail Benutzer",
+				"description": "Welchen Benutzer nutzt der Mail-Server?"
+			  },
+			  {
+				"name": "EMAIL_PASSWORD",
+				"label": "Mail Passwort",
+				"description": "Welches Passwort nutzt der Mail-Server?"
+			  },
+			  {
+				"name": "EMAIL_FROM_MAIL",
+				"label": "Absenderadresse",
+				"description": "Was soll der Absender sein?"
+			  },
+			  {
+				"name": "EMAIL_USE_TLS",
+				"label": "E-Mail Server TLS",
+				"description": "Nutzt der Mail-Server TLS?",
+				"select": [
+					{
+					  "text": "Ja",
+					  "value": "True",
+					  "default": true
+					},
+					{
+					  "text": "Nein",
+					  "value": "False"
+					}
+				  ]
+			  },
+			  {
 				"name": "Public_Port",
 				"label": "Externer Port",
 				"description": "Unter welchem Port soll Openslides bereitgestellt werden?"

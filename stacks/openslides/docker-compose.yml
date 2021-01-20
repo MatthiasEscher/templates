@@ -23,11 +23,7 @@ openslides:
     environment:
       DJANGO_SECRET: ${DJANGO_SECRET}
       Branding: ${Branding}
-      EMAIL_HOST: ${EMAIL_HOST}
-      EMAIL_PORT: ${EMAIL_PORT}
-      EMAIL_USER: ${EMAIL_USER}
-      EMAIL_PASSWORD: ${EMAIL_PASSWORD}
-      EMAIL_FROM_MAIL: ${EMAIL_FROM_MAIL}
+      URL: ${URL}
     links: 
         - "postgres-db"
         - "redis"

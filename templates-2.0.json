@@ -1029,6 +1029,11 @@
 				"description": "Secret Key zum signieren der Daten!"
 			  },
 			  {
+				"name": "URL",
+				"label": "URL",
+				"description": "URL unter der die Seite erreichbar sein soll"
+			  },
+			  {
 				"name": "Branding",
 				"label": "Branding",
 				"description": "Default oder ju-cloud",
@@ -1041,6 +1046,10 @@
 					{
 					  "text": "JU-Cloud Branding",
 					  "value": "ju-cloud"
+					},
+					{
+					  "text": "KLJB Branding",
+					  "value": "kljb"
 					}
 				  ]
 			  },
@@ -1051,7 +1060,7 @@
 				"select": [
 					{
 					  "text": "3.3",
-					  "value": "3.3_Mail",
+					  "value": "3.3_Test_PG",
 					  "default": true
 					},
 					{
@@ -1059,31 +1068,6 @@
 					  "value": "3.2"
 					}
 				  ]
-			  },
-			  {
-				"name": "EMAIL_HOST",
-				"label": "Mail Server",
-				"description": "Von welchem Mail-Server sollen Mails verschickt werden?"
-			  },
-			  {
-				"name": "EMAIL_PORT",
-				"label": "Mail Server Port",
-				"description": "Welchen Port nutzt der Mail-Server?"
-			  },
-			  {
-				"name": "EMAIL_USER",
-				"label": "Mail Benutzer",
-				"description": "Welchen Benutzer nutzt der Mail-Server?"
-			  },
-			  {
-				"name": "EMAIL_PASSWORD",
-				"label": "Mail Passwort",
-				"description": "Welches Passwort nutzt der Mail-Server?"
-			  },
-			  {
-				"name": "EMAIL_FROM_MAIL",
-				"label": "Absenderadresse",
-				"description": "Was soll der Absender sein?"
 			  },
 			  {
 				"name": "Public_Port",

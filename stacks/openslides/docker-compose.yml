@@ -23,7 +23,7 @@ openslides:
     environment:
       DJANGO_SECRET: ${DJANGO_SECRET}
       Branding: ${Branding}
-      URL: ${URL}
+      INSTANCE_DOMAIN: ${URL}
     links: 
         - "postgres-db"
         - "redis"
